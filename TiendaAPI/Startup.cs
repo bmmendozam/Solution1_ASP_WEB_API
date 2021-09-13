@@ -43,6 +43,7 @@ namespace TiendaAPI
         {
             services.AddSwaggerGen(options =>
             {
+                //no lo veo
                 var groupName = "v1";
                 //intento de swagger
                 options.SwaggerDoc(groupName, new OpenApiInfo
